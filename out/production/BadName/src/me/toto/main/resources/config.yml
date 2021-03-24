@@ -1,0 +1,58 @@
+# Write a name down here that you want to ban.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+BadNames:
+- ExampleName
+- ExampleName2
+
+# Write a message below when you kick out a player with a bad name.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Kick-Message: '&f[&c&lBadName&f] &c%name% is ban name! &eyou can join after change your name.'
+
+# Write a message below that will appear when you do not have permission to execute a command.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with permission using %permission%.
+No-Permission-Message: '&f[&c&lBadName&f] &cYou do not have permission to execute this command! &7(%permission%)'
+
+# Write down your help message below.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+Help-Message: '&f[&c&lBadName&f] &e[ &f/badname add [name] &f] &e- add name to badname! &6/ &e[ &f/badname remove [name] &f] &e- remove name from badname! &6/ &e[ &f/badname list &f] &e- check badname list!'
+
+# Write down your bad name list message.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with list using %list%.
+List-Message: '&f[&c&lBadName&f] &eBad name list&f: %list%'
+
+# Write a message below that will appear when you successfully added the name.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Added-Message: '&f[&c&lBadName&f] &eSuccessfully added &c%name% &eto the bad name!'
+
+# Write a message below that will appear when you successfully delete the name.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Removed-Message: '&f[&c&lBadName&f] &eSuccessfully removed &c%name% &efrom the bad name!'
+
+# Write a message below that will appear when name is not exists.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Name-Not-Exists: '&f[&c&lBadName&f] &c%name% &eis not exists!'
+
+# Write a message below that will appear when name is already exists.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+# Replace with name using %name%.
+Name-Already-Exists: '&f[&c&lBadName&f] &c%name% &eis already exists!'
+
+# Write a message below that will appear when config reloaded.
+# Use Color codes to set message's color.
+# &0, &1, &2, &3, &4, &5, &6, &7, &8, &9, &a, &b, &c, &d, &e, &f, &k, &l, &m, &n, &o, &r
+Reloaded-Message: '&f[&c&lBadName&f] &areloaded config file!'

@@ -1,0 +1,9 @@
+name: BadName
+version: 0.1
+api-version: 1.15
+main: me.toto.main.BadName
+author: toto7735
+commands:
+  badname:
+    aliases: [bn]
+description: Plugins that prohibit players with bad names!
